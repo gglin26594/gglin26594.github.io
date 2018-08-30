@@ -6,15 +6,14 @@ categories: jekyll update
 ---
 This is my first blog update using Jekyll.
 The site is hosted on github page. 
-Below is a hight of code: 
+Below is a test of highligh of javascript code: 
 {% highlight javascript %}
-function(message) {
+greet(message) {
     alert(message);
 }
+greet("Hellow World");
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+I will share codes during my work and learning.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+![linu]({{ "../assets/img/linus.jpg" | absolute_url }})
